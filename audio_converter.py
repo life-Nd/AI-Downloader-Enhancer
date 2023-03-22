@@ -3,9 +3,7 @@ import subprocess
 
 # Create output directories if they don't already exist
 
-
-# path = "../../Data/Gates/Videos"
-path = "/Users/lifen/Data/Gates"
+path = ""
 path_videos = path + "/Videos"
 
 os.makedirs(path+"/Wav", exist_ok=True)
